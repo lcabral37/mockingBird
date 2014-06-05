@@ -18,3 +18,9 @@
     bottom: 0px;
     background-color: #12acef;
 }
+
+#allowHelper div{
+    position: absolute;
+    width: 50%;
+    left: 25%;
+}
