@@ -1,27 +1,14 @@
 <!DOCTYPE html>
-<html>
-<head>
-<script src="http://simplewebrtc.com/latest.js"></script>
-</head>
+    <html>
+        <head>
+            <script src="http://simplewebrtc.com/latest.js"></script>
+            <script src="lib/parameters.js"></script>
+            <script src="lib/main.js"></script>
+        </head>
 
-<body>
-
-<div id="localVideo" muted></div>
-<div id="remoteVideo"></div>
-
-
-<script>
-var webrtc = new SimpleWebRTC({
-	localVideoEl: 'localVideo',
-	remoteVideosEl: 'remoteVideo',
-	autoRequestMedia: true
-});
-
-webrtc.on('readyToCall', function () {
-	webrtc.joinRoom('FronterWebRTC Room');
-});
-</script>
-
-</body>
-
+        <body>
+            <h1 id="title"></h1>
+            <div id="localVideo" muted></div>
+            <div id="remoteVideo"></div>
+        </body>
 </html>
