@@ -1,4 +1,4 @@
-#localVideo, #localVideo video {
+ #localVideo, #localVideo video {
     position: relative;
     width: 250px;
     height: 200px;
@@ -24,3 +24,17 @@
     width: 50%;
     left: 25%;
 }
+
+.buttons_bar {
+    position: absolute;
+    width: 40%;
+    left:30%;
+    z-index: 99;
+}
+.buttons_bar img{
+    position: relative;
+    width: 20px;
+    padding: 0px;
+    margin-left: 5px;
+}
+
