@@ -1,6 +1,6 @@
 {
   "name": "FronterWebRTC",
-  "version": "0.0.3",
+  "version": "0.0.8",
   "description": "Fronter WebRTC hack",
   "main": "index.js",
   "scripts": {
