@@ -1,0 +1,20 @@
+#localVideo, #localVideo video {
+    position: relative;
+    width: 250px;
+    height: 200px;
+}
+
+#remoteVideo, #remoteVideo video {
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+
+.volume_bar {
+    position: absolute;
+    width: 0px;
+    height: 5px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #12acef;
+}
