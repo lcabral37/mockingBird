@@ -62,3 +62,9 @@
     top:0px;
 }
 
+#version{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 50px;
+}
