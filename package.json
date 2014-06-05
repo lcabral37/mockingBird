@@ -1,0 +1,26 @@
+{
+  "name": "FronterWebRTC",
+  "version": "0.0.1",
+  "description": "Fronter WebRTC hack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./serveVideo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.fronter.net:communication/fronterwebrtc.git"
+  },
+  "keywords": [
+    "webrtc",
+    "codelab",
+    "fronter"
+  ],
+  "author": "webrtc",
+  "license": "MIT",
+  "dependencies": {
+    "node-static": "~0.7.1",
+    "socket.io": "~0.9.16",
+    "express": "~3.4.0"
+  }
+}
