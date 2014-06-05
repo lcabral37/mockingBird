@@ -4,10 +4,14 @@
     height: 200px;
 }
 
-#remoteVideo, #remoteVideo video {
+#remoteVideo, .remoteVideo video {
     position: relative;
     width: 400px;
     height: 300px;
+}
+
+.remoteVideo{
+    float:left;
 }
 
 .volume_bar {
@@ -36,5 +40,25 @@
     width: 20px;
     padding: 0px;
     margin-left: 5px;
+}
+
+.peer_muted_audio {
+    background-image:url('images/audio_off.png');
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 99;
+    bottom: 0px;
+}
+
+.peer_muted_video {
+    background-image:url('images/offline.jpg');
+    background-size:400px 300px;
+    background-repeat:no-repeat;
+    position: absolute;
+    width:100%;
+    height:100%;
+    z-index: 98;
+    top:0px;
 }
 
