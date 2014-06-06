@@ -11,12 +11,22 @@
     height: 300px;
 }
 
+#remoteVideo .remoteVideo, #localVideo {
+    box-shadow: 1px 1px 3px 3px #ccc;
+    margin: 5px;
+    padding: 10px;
+}
+
+#localVideo {
+    padding: 4px 10px;
+}
+
 .volume_bar {
     position: absolute;
     width: 0px;
     height: 5px;
-    left: 0px;
-    bottom: 0px;
+    left: 10px;
+    bottom: 10px;
     background-color: #12acef;
     z-index: 8;
 }
