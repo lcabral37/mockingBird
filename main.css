@@ -5,6 +5,9 @@
     height: 200px;
 }
 
+.remoteVideo {
+    display: flex;
+}
 .remoteVideo, .remoteVideo video {
     position: relative;
     width: 400px;
